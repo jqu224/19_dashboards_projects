@@ -20,7 +20,6 @@ import glob
 ```python
 # find the outlines
 # draw a white circle arounds it
-
 import cv2
 import numpy as np
 from matplotlib.pyplot import imshow
@@ -36,24 +35,11 @@ for i in range(100):
     name1 = files[random.randint(0, len(files)-1)]
     img = cv2.imread(name1, 0)  
     img1 = cv2.imread(name1, 0)  
-#     img = cv2.bitwise_not(img)
-#     img = cv2.adaptiveThreshold(img,255,cv2.ADAPTIVE_THRESH_MEAN_C,\
-#              cv2.THRESH_BINARY,11,2)
-    
-#     dilation = cv2.dilate(img,kernel,iterations = 4)
-# #     erosion = cv2.erode(dilation,kernel,iterations = 4)
-#     img = dilation
-#     img = cv2.bitwise_not(img)
 #     img1 = cv2.bitwise_not(img1)
     quartiles = np.percentile(img, range(0, 100, 10), interpolation = 'midpoint')
     print(quartiles)
-# img = cv2.imread(r'S:\QA\Magic Mirror data\50 micron okmetic 6-inch nozzle\458781-0 (lot 447195-1)\3902833056.jpg', 0)
 # img = cv2.adaptiveThreshold(img,255,cv2.ADAPTIVE_THRESH_MEAN_C,\
 #             cv2.THRESH_BINARY,11,2)
-#     kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(3,3))
-#     img = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel) 
-#     quartiles = np.percentile(img, range(0, 100, 10), interpolation = 'midpoint')
-#     print(quartiles)
 
     clahe = cv2.createCLAHE(clipLimit=0.05, tileGridSize=(8,8))
     cl1 = clahe.apply(img)
@@ -62,11 +48,8 @@ for i in range(100):
     print(quartiles)
     plt.subplot(1,5,1), plt.imshow(cl1, cmap='gray'), plt.title("c l 1") 
     
-#     ret,cl1 = cv2.threshold(cl1,quartiles[-3],255,cv2.THRESH_TOZERO)
     ret,cl1 = cv2.threshold(cl1,quartiles[-2],255,cv2.THRESH_BINARY)
-#     cl1 = cv2.adaptiveThreshold(cl1,0,cv2.ADAPTIVE_THRESH_MEAN_C,\
-#             cv2.THRESH_BINARY,11,2)
-    dilation = cv2.dilate(cl1,kernel,iterations = 4)
+   dilation = cv2.dilate(cl1,kernel,iterations = 4)
     erosion = cv2.erode(dilation,kernel,iterations = 3)
     cl1 = erosion
     dilation = cv2.dilate(cl1,kernel,iterations = 4)
@@ -77,7 +60,6 @@ for i in range(100):
     print(quartiles)
     plt.subplot(1,5,2), plt.imshow(cl1, cmap='gray') , plt.title("c l 1 with threshold")
     
-#     ret,thresh = cv2.threshold(img1,11,255,1)
     contours,hierarchy = cv2.findContours(cl1, 0 , 2 ) 
     cnt = contours[0]
     M = cv2.moments(cnt)
