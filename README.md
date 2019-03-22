@@ -5,6 +5,7 @@ Project one:
 fetch error message and generate weekly summary
 ----------------------------
 
+![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-2.png "Flowchart")
 ```
 
 requirements:
@@ -70,5 +71,4 @@ detailed breakdown:
 	
 		
 ```
-![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-2%20(1).png "Flowchart")
 
