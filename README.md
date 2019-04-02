@@ -2,15 +2,15 @@
 
 ----------------------------
 [Project 1:](#Project-1:)                 
-fetch error message and generate weekly summary
+Fetch error message and generate weekly summary
 ----------------------------
 
 ![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-2%20(2).png "Flowchart")
 
 
 ----------------------------
-Project 2:
-fetch error message and generate weekly summary
+Project 2:              
+Merge tables from different database/disks/stages and generate a yearly report
 ----------------------------
 ![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-3.png "Flowchart2")
 
