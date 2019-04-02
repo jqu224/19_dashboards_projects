@@ -14,7 +14,10 @@ Merge tables from different database/disks/stages and generate an annual report
 ----------------------------
 ![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-3.png "Flowchart2")
 
-
+----------------------------
+Project 3:              
+Pattern recognition for defective supplies
+----------------------------
 ##  Project 1 Breakdown:
 ```
 
