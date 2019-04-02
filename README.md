@@ -10,7 +10,7 @@ Fetch error message and generate weekly summary
 
 ----------------------------
 Project 2:              
-Merge tables from different database/disks/stages and generate a yearly report
+Merge tables from different database/disks/stages and generate an annual report
 ----------------------------
 ![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-3.png "Flowchart2")
 
