@@ -16,8 +16,10 @@ Merge tables from different database/disks/stages and generate an annual report
 
 ----------------------------
 Project 3:               
-Pattern recognition for defective supplies          
+Pattern recognition for defective supplies     
 ----------------------------
+![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-5.png "Flowchart2")
+
 [on going...]
 
 ##  Project 1 Breakdown:
