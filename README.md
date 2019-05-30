@@ -1,6 +1,12 @@
 # 19_intern_projects
 
 ----------------------------
+Project 0:               
+Tableau Server - Dashboard fetching data from MS SQL
+----------------------------
+![alt text](https://github.com/jqu224/19_intern_projects/blob/master/tableau/1_1163.png "Flowchart0")
+
+----------------------------
 [Project 1:](#Project-1:)                 
 JMP scripting language (JSL) - Fetch error message and generate weekly summary using datasets stored on hard drive
 ----------------------------
@@ -19,6 +25,7 @@ Project 3:
 Python & OpenCV - Pattern recognition for defective supplies     
 ----------------------------
 ![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-5.png "Flowchart2")
+
 
 [on going...]
 
