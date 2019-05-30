@@ -16,8 +16,10 @@ JMP scripting language (JSL) - Fetch error message and generate weekly summary u
 
 ----------------------------
 Project 2:              
-MS SQL & Python - Merge datasets from different database/disks/stages and generate an annual report of production line (e.g. nozzle size vs. volume drop) 
+MS SQL & Python - Merge datasets from different database/disks/stages and generate an annual report of production line      
 ----------------------------
+
+(e.g. nozzle size vs. volume drop)      
 ![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-3.png "Flowchart2")
 
 ----------------------------
