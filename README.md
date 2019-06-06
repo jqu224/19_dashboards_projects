@@ -1,11 +1,5 @@
 # 19_intern_projects
 
-----------------------------
-Project 0:               
-Tableau Server - Dashboard fetching data from MS SQL
----------------------------
-Comparison between Special Requests and Normal Products
-![alt text](https://github.com/jqu224/19_intern_projects/blob/master/tableau/1_1163.png "Flowchart0")
 
 ----------------------------
 [Project 1:](#Project-1:)                 
@@ -29,6 +23,12 @@ Python & OpenCV - Pattern recognition for defective supplies
 ----------------------------
 ![alt text](https://github.com/jqu224/19_intern_projects/blob/master/image/30/Untitled%20Diagram-Page-5.png "Flowchart2")
 
+----------------------------
+Project 4:               
+Tableau Server - Dashboard fetching data from MS SQL
+---------------------------
+Comparison between Special Requests and Normal Products
+![alt text](https://github.com/jqu224/19_intern_projects/blob/master/tableau/1_1163.png "Flowchart0")
 
 [on going...]
 
@@ -75,7 +75,7 @@ Solution
 	step 4: let user to update 40 and 20 counters for the electrical/mechanical errors respectively	[spin box] 
 	step x: now the user should be able to select and paste the entire table to other spreadsheets using ctrl+c/v
 
-detailed breakdown: 
+Detailed breakdown: 
 /////////////////////////////////////////////////////////////////////////////
 /////////////////////////// README.JSL ////////////////////////////////////// 
 ////////// Here is a brief intro for the usage of this script  //////////////
